@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+    "parameters": {
+
+        "publicHostingPlanName": {
+            "value": "xt-uat-hp-public"
+        },
+
+        "apiHostingPlanName": {
+            "value": "xt-uat-hp-public"
+        },
+
+        "publicWebSiteName": {
+            "value": "xt-uat-web-public"
+        },
+        "apiWebSiteName": {
+            "value": "xt-uat-api-crm"
+        },
+
+
+        "crmSqlserverName": {
+            "value": "xt-uat-sql-crm"
+        },
+        "administratorLogin": {
+            "value": "superadmin"
+        },
+        "administratorLoginPassword": {
+            "value": ""
+        },
+        "crmDatabaseName": {
+            "value": "CRM"
+        },
+        "edition": {
+            "value": "Basic"
+        },
+        "crmApiName": {
+            "value": "xt-uat-api-crm"
+        }
+    }
+}
